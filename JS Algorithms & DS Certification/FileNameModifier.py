@@ -8,7 +8,7 @@ import os
 """ CONSTANTS """
 EXPECTED_FILE_EXTENSION = '.txt'
 TARGET_FILE_EXTENSION = '.js'
-TARGET_FILE_NAME_WORD_DELIMITER = ''
+TARGET_FILE_NAME_WORD_DELIMITER = '_'
 
 # Obtain the List of all the File(s) in the Current Directory
 fFullNames = [fName for fName in os.listdir('.') if os.path.isfile(fName)]
