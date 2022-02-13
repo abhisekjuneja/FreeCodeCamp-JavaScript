@@ -1,2 +1,1 @@
-// Only change code below this line
-const myArray = ["Hello", 1];
+// Only change code below this lineconst myArray = ["Hello", 1];
