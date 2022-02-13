@@ -1,1 +1,4 @@
-function reusableFunction() {  console.log("Hi World");}reusableFunction();
+function reusableFunction() {
+  console.log("Hi World");
+}
+reusableFunction();

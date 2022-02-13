@@ -29,7 +29,7 @@ for directory in listOfDirectories:
     listOfJSFiles = [item for item in os.scandir(directory) if item.is_file()]
     for jsFile in listOfJSFiles:
         beautifiedJSCode = jsbeautifier.beautify_file(jsFile, JSBEAUTIFIER_OPTS)
-        with open(jsFile, 'w+') as f:
+        with open(jsFile, 'w+', newline = '\r\n') as f:
             f.write(beautifiedJSCode)
     print(f"DONE!")
 
