@@ -18,7 +18,7 @@ for directory in listOfDirectories:
     print(f"\tChanging File Extension for TXT File(s)...", end = "")
     listOfFiles = [item for item in os.scandir(directory) if item.is_file()]
     for file in listOfFiles:
-        # If the File Extension is '.txt', Change the File Extension to '.js'
+        # If the File Extension is 't .txt', Change the File Extension to '.js'
         filePathTokens = os.path.splitext(file)
         fileExtension = filePathTokens[1]
         if fileExtension == ".txt": os.rename(file, filePathTokens[0] + ".js")
