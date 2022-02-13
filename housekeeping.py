@@ -3,7 +3,7 @@ import jsbeautifier
 
 # Define JSBeautifier Options
 JSBEAUTIFIER_OPTS = jsbeautifier.default_options()
-JSBEAUTIFIER_OPTS.indent_size = 4
+JSBEAUTIFIER_OPTS.indent_size = 2
 JSBEAUTIFIER_OPTS.preserve_newlines = False
 
 # Fetch the List of Directories in the Current Working Directory
